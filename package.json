@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:dev": "ng serve -c=dev --port=4201",
+    "start:QA": "ng serve -c=QA --port=4201",
     "build": "ng build --prod --base-href  https://anamikaRwapte.github.io/AngularPratice8/",
     "test": "ng test",
     "lint": "ng lint",
