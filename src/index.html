@@ -10,6 +10,30 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBXr6z1NjzNtzQXbJ5SZY6X_roJylaLF3Q",
+    authDomain: "angularpratice8.firebaseapp.com",
+    databaseURL: "https://angularpratice8.firebaseio.com",
+    projectId: "angularpratice8",
+    storageBucket: "angularpratice8.appspot.com",
+    messagingSenderId: "441495859923",
+    appId: "1:441495859923:web:61e61155a5874110205a26",
+    measurementId: "G-7BDPD596N8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
 </head>
 <body>
   <app-root></app-root>
