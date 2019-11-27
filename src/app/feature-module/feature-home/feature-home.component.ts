@@ -15,26 +15,26 @@ export class FeatureHomeComponent implements OnInit {
     console.log('FeatureHomeComponent ngOnInit');
   }
 
-  ngOnChanges() {
-    console.log(' FeatureHomeComponent ngOnChanges');
-  }
-  ngDoCheck() {
-    console.log(' FeatureHomeComponent ngDoCheck');
-  }
-  ngAfterContentInit() {
-    console.log(' FeatureHomeComponent ngAfterContentInit');
-  }
-  ngAfterContentChecked() {
-    console.log(' FeatureHomeComponent ngAfterContentChecked');
-  }
-  ngAfterViewInit() {
-    console.log(' FeatureHomeComponent ngAfterViewInit');
-  }
-  ngAfterViewChecked() {
-    console.log(' FeatureHomeComponent ngAfterViewChecked');
-  }
-  ngOnDestroy() {
-    console.log(' FeatureHomeComponent ngOnDestory');
-  }
+  // ngOnChanges() {
+  //   console.log(' FeatureHomeComponent ngOnChanges');
+  // }
+  // ngDoCheck() {
+  //   console.log(' FeatureHomeComponent ngDoCheck');
+  // }
+  // ngAfterContentInit() {
+  //   console.log(' FeatureHomeComponent ngAfterContentInit');
+  // }
+  // ngAfterContentChecked() {
+  //   console.log(' FeatureHomeComponent ngAfterContentChecked');
+  // }
+  // ngAfterViewInit() {
+  //   console.log(' FeatureHomeComponent ngAfterViewInit');
+  // }
+  // ngAfterViewChecked() {
+  //   console.log(' FeatureHomeComponent ngAfterViewChecked');
+  // }
+  // ngOnDestroy() {
+  //   console.log(' FeatureHomeComponent ngOnDestory');
+  // }
 
 }

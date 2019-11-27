@@ -9,6 +9,7 @@ export class HighlightDirective {
     console.log('HighlightDirective');
   }
 
+  // tslint:disable-next-line: no-input-rename
   @Input('myHighlight') highlightColor: string;
 
   @HostListener('mouseenter') onMouseEnter() {
