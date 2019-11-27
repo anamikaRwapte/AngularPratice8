@@ -5,7 +5,7 @@ import { Directive, ElementRef, Input, HostListener } from '@angular/core';
 })
 export class HighlightDirective {
 
-  constructor(private el: ElementRef) { 
+  constructor(private el: ElementRef) {
     console.log('HighlightDirective');
   }
 

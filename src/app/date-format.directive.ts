@@ -1,4 +1,4 @@
-import { Directive, HostBinding, HostListener, ElementRef,Input } from '@angular/core';
+import { Directive, HostBinding, HostListener, ElementRef, Input } from '@angular/core';
 import { CommonService } from './common.service';
 
 @Directive({
@@ -6,19 +6,19 @@ import { CommonService } from './common.service';
 })
 export class DateFormatDirective {
 
-  constructor(private commonService:CommonService,private el: ElementRef) {
+  constructor(private commonService: CommonService, private el: ElementRef) {
     console.log('DateFormatDirective');
     // @Input('myHighlight') highlightColor: string;
     el.nativeElement.style.backgroundColor = 'yellow';
    }
 
-   @HostListener('mouseenter')  onclick(){
+   @HostListener('mouseenter')  onclick() {
     this.el.nativeElement.style.backgroundColor = 'blue';
    }
-   
-   @HostListener('mouseleave')  mouseover(){
-    this.el.nativeElement.style.backgroundColor = 'red';}
-   
+
+   @HostListener('mouseleave')  mouseover() {
+    this.el.nativeElement.style.backgroundColor = 'red'; }
+
 
 
 }

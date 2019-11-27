@@ -11,15 +11,15 @@ import { Component, OnInit, ViewEncapsulation, Output, EventEmitter, Input } fro
 export class ButtonComponent implements OnInit {
 
   @Output() valueChanged  = new EventEmitter();
-  @Input() data:string;
-  private numberOfClick:number =0;
-  constructor(){
+  @Input() data: string;
+  private numberOfClick = 0;
+  constructor() {
     console.log('ButtonComponent');
-      
-    }
-  
 
-  handleClick(){
+    }
+
+
+  handleClick() {
     this.numberOfClick++;
     this.valueChanged.emit(this.numberOfClick);
 
@@ -29,25 +29,25 @@ export class ButtonComponent implements OnInit {
     console.log('ButtonComponent ngOnInit');
   }
 
-  ngOnChanges(){
+  ngOnChanges() {
     console.log(' ButtonComponent ngOnChanges');
   }
-  ngDoCheck(){
+  ngDoCheck() {
     console.log(' ButtonComponent ngDoCheck');
   }
-  ngAfterContentInit(){
+  ngAfterContentInit() {
     console.log(' ButtonComponent ngAfterContentInit');
   }
-  ngAfterContentChecked(){
-    console.log(' ButtonComponent ngAfterContentChecked')
+  ngAfterContentChecked() {
+    console.log(' ButtonComponent ngAfterContentChecked');
   }
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     console.log(' ButtonComponent ngAfterViewInit');
   }
-  ngAfterViewChecked(){
+  ngAfterViewChecked() {
     console.log(' ButtonComponent ngAfterViewChecked');
   }
-  ngOnDestroy(){
+  ngOnDestroy() {
     console.log(' ButtonComponent ngOnDestory');
   }
 

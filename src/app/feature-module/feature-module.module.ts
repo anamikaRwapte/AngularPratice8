@@ -12,9 +12,9 @@ import { FeatureHomeComponent } from './feature-home/feature-home.component';
     FeatureModuleRoutingModule
   ]
 })
-export class FeatureModuleModule { 
+export class FeatureModuleModule {
 
-  constructor(){
+  constructor() {
     console.log('FeatureModuleModule');
   }
 }

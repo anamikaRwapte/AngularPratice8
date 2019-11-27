@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Injector } from '@angular/core';
-import { createCustomElement } from "@angular/elements";
+import { createCustomElement } from '@angular/elements';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,7 +16,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent,    
+    ButtonComponent,
     HighlightDirective,
     DateFormatDirective,
   ],
@@ -28,20 +28,20 @@ import { FormsModule } from '@angular/forms';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [CommonService],
-  entryComponents:[ButtonComponent],
+  entryComponents: [ButtonComponent],
   bootstrap: [AppComponent]
 })
-export class AppModule { 
+export class AppModule {
 
-  constructor(private injector:Injector){
+  constructor(private injector: Injector) {
     console.log('AppModule');
-    
+
 
   }
 
-  ngDoBootstrap(){
-    const createElement =  createCustomElement(ButtonComponent,{injector:this.injector});
-    customElements.define('app-button',createElement);
+  ngDoBootstrap() {
+    const createElement =  createCustomElement(ButtonComponent, {injector: this.injector});
+    customElements.define('app-button', createElement);
   }
 
 

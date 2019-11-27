@@ -6,44 +6,44 @@ import { environment } from 'src/environments/environment';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnChanges,OnInit{
+export class AppComponent implements OnChanges, OnInit {
   title = 'AngularPratice8';
-  name:string;
+  name: string;
 
-  numberOfClick:number=0;
+  numberOfClick = 0;
 
-  valueChanged($event){
-    this.numberOfClick=$event;
+  valueChanged($event) {
+    this.numberOfClick = $event;
   }
 
-  constructor(){
+  constructor() {
   console.log('AppComponent');
   console.log(environment);
-    
+
   }
 
   ngOnInit() {
     console.log(' AppComponent ngOnInit');
   }
-  ngOnChanges(){
+  ngOnChanges() {
     console.log(' AppComponent ngOnChanges');
   }
-  ngDoCheck(){
+  ngDoCheck() {
     console.log(' AppComponent ngDoCheck');
   }
-  ngAfterContentInit(){
+  ngAfterContentInit() {
     console.log(' AppComponent ngAfterContentInit');
   }
-  ngAfterContentChecked(){
-    console.log(' AppComponent ngAfterContentChecked')
+  ngAfterContentChecked() {
+    console.log(' AppComponent ngAfterContentChecked');
   }
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     console.log(' AppComponent ngAfterViewInit');
   }
-  ngAfterViewChecked(){
+  ngAfterViewChecked() {
     console.log(' AppComponent ngAfterViewChecked');
   }
-  ngOnDestroy(){
+  ngOnDestroy() {
     console.log(' AppComponent ngOnDestory');
   }
 

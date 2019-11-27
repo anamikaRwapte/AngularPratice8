@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeatureHomeComponent implements OnInit {
 
-  constructor() { 
+  constructor() {
     console.log('FeatureHomeComponent');
   }
 
@@ -15,25 +15,25 @@ export class FeatureHomeComponent implements OnInit {
     console.log('FeatureHomeComponent ngOnInit');
   }
 
-  ngOnChanges(){
+  ngOnChanges() {
     console.log(' FeatureHomeComponent ngOnChanges');
   }
-  ngDoCheck(){
+  ngDoCheck() {
     console.log(' FeatureHomeComponent ngDoCheck');
   }
-  ngAfterContentInit(){
+  ngAfterContentInit() {
     console.log(' FeatureHomeComponent ngAfterContentInit');
   }
-  ngAfterContentChecked(){
-    console.log(' FeatureHomeComponent ngAfterContentChecked')
+  ngAfterContentChecked() {
+    console.log(' FeatureHomeComponent ngAfterContentChecked');
   }
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     console.log(' FeatureHomeComponent ngAfterViewInit');
   }
-  ngAfterViewChecked(){
+  ngAfterViewChecked() {
     console.log(' FeatureHomeComponent ngAfterViewChecked');
   }
-  ngOnDestroy(){
+  ngOnDestroy() {
     console.log(' FeatureHomeComponent ngOnDestory');
   }
 

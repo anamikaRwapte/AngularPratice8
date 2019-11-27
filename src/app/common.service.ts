@@ -5,11 +5,11 @@ import { Injectable } from '@angular/core';
 })
 export class CommonService {
 
-  constructor(){
+  constructor() {
     console.log('CommonService');
   }
 
   buttonClick(arg0: boolean) {
-     alert('button clicked'+arg0);
+     alert('button clicked' + arg0);
   }
 }

@@ -4,8 +4,8 @@ import { FeatureHomeComponent } from './feature-home/feature-home.component';
 
 
 const routes: Routes = [{
-  path:'',
-  component:FeatureHomeComponent
+  path: '',
+  component: FeatureHomeComponent
 }];
 
 @NgModule({
